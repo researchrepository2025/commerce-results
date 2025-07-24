@@ -35,6 +35,15 @@ The tool generates 18 comprehensive visualizations:
 - Per-transaction fee breakdowns
 - Market concentration metrics
 
+### Interactive Dashboard Features
+The web dashboard (`dashboard.py`) provides:
+- **Real-time Updates**: Adjust parameters and see instant results
+- **Generation Controls**: Modify population, spending, adoption rates per generation
+- **Revenue Distribution Sliders**: Adjust fee percentages for each stakeholder
+- **Multiple Views**: Market overview, revenue distribution, growth analysis, and data tables
+- **Scenario Comparison**: Compare different random seeds side-by-side
+- **Export Ready**: All charts are interactive and downloadable
+
 ## Installation
 
 1. Clone this repository:
@@ -56,7 +65,21 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Basic Usage
+### Interactive Dashboard (Recommended)
+Launch the interactive web dashboard:
+```bash
+python dashboard.py
+```
+Then open your browser to `http://localhost:8050`
+
+The dashboard provides:
+- Real-time parameter adjustment
+- Interactive visualizations
+- Scenario comparisons
+- Detailed data tables
+- Export capabilities
+
+### Command Line Usage
 Run the analysis with default parameters:
 ```bash
 python agentic_commerce_market_projection.py
