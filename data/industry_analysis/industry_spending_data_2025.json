@@ -1,0 +1,201 @@
+{
+  "industries": {
+    "manufacturing": {
+      "name": "Manufacturing",
+      "total_industry_spending": {
+        "value": "$500 billion (2024)",
+        "growth_to_2027": "$700 billion",
+        "notes": "Discrete Manufacturing DX investments"
+      },
+      "digital_transformation_spending_percent": "78% incorporate AI into digital transformation strategy",
+      "ai_automation_adoption_rate": {
+        "current": "55% use generative AI tools",
+        "planned": "40%+ plan to invest more in AI/ML next 3 years"
+      },
+      "risk_tolerance": "Moderate-High - Aggressive innovation adoption",
+      "procurement_cycle_months": "6-12 months for enterprise software",
+      "growth_projections": {
+        "digital_transformation": "19.48% CAGR (2021-2026)",
+        "market_size_2026": "$767 billion"
+      },
+      "sources": [
+        "Deloitte 2024 Manufacturing Survey",
+        "Manufacturing Leadership Council 2024",
+        "Mordor Intelligence",
+        "IDC Digital Transformation Spending Guide"
+      ]
+    },
+    "healthcare": {
+      "name": "Healthcare",
+      "total_industry_spending": {
+        "IT_spending_2024": "$231 billion",
+        "IT_spending_2025": "$231.2 billion",
+        "digital_health_market_2025": "$347.35 billion"
+      },
+      "digital_transformation_spending_percent": {
+        "AI_ML_spending": "10.5% of sector costs (2024)",
+        "virtualization_potential": "20% ($250 billion) could be virtualized"
+      },
+      "ai_automation_adoption_rate": {
+        "digitalization_score": "1.875 (below average 3.025)",
+        "status": "One of least digitalized sectors despite COVID advancement"
+      },
+      "risk_tolerance": "Conservative - Regulatory and safety concerns",
+      "procurement_cycle_months": "9-12 months typical",
+      "growth_projections": {
+        "digital_health_CAGR": "19.6% (2025-2029)",
+        "AI_healthcare_CAGR": "48.1% (2024-2029)",
+        "predictive_analytics": "$156.36 billion by 2034"
+      },
+      "sources": [
+        "McKinsey Healthcare Digital Transformation Report",
+        "HG Insights Healthcare IT Report",
+        "KLAS Research Healthcare IT Spending 2024",
+        "Statista Digital Health Market Report"
+      ]
+    },
+    "financial_services": {
+      "name": "Financial Services",
+      "total_industry_spending": {
+        "IT_spending_2024": "$742 billion",
+        "projected_2028": ">$1 trillion",
+        "market_value_2024": "$1.2 trillion"
+      },
+      "digital_transformation_spending_percent": {
+        "digitalization_score": "4.5 (highest, average 3.025)",
+        "AI_spending_2024": "$35 billion",
+        "AI_spending_2027": "$97 billion"
+      },
+      "ai_automation_adoption_rate": "Most digitalized sector - leading adoption",
+      "risk_tolerance": "Moderate - ROI and compliance focused",
+      "procurement_cycle_months": "6-9 months typical",
+      "growth_projections": {
+        "IT_spending_CAGR": "8.7% (5-year)",
+        "IT_spending_2032": "$1.77 trillion",
+        "annual_growth_2024": "8.0%"
+      },
+      "sources": [
+        "Gartner Banking IT Spending Forecast 2024",
+        "McKinsey Digital Banking Report",
+        "Statista Financial Sector AI Spending",
+        "Credence Research IT Financial Services Market"
+      ]
+    },
+    "retail": {
+      "name": "Retail",
+      "total_industry_spending": {
+        "notes": "Part of major IT spending sectors, specific figures limited"
+      },
+      "digital_transformation_spending_percent": {
+        "business_intelligence": "63% expect to spend more",
+        "AI_investment": "35% plan AI spending increase",
+        "software_tech_increase": "57% plan increased spending 2024"
+      },
+      "ai_automation_adoption_rate": {
+        "digitalization_score": "3.125 (slightly above average 3.025)",
+        "digital_transformation_recognition": "71% see as essential"
+      },
+      "risk_tolerance": "Moderate - Customer experience focused",
+      "procurement_cycle_months": "3-6 months typical",
+      "growth_projections": {
+        "focus_areas": "Edge AI, dynamic pricing, personalized loyalty"
+      },
+      "sources": [
+        "McKinsey Retail Digital Report",
+        "Industry digitalization scores study"
+      ]
+    },
+    "technology": {
+      "name": "Technology",
+      "total_industry_spending": {
+        "notes": "Highest IT spending as % of revenue"
+      },
+      "digital_transformation_spending_percent": "Leading adopter across all technologies",
+      "ai_automation_adoption_rate": {
+        "AI_code_assistants": "75% by 2028 (vs <10% in 2023)",
+        "current_adoption": "Highest among all sectors"
+      },
+      "risk_tolerance": "High - Innovation driven",
+      "procurement_cycle_months": "1-3 months for SaaS, 6-9 for enterprise",
+      "growth_projections": {
+        "focus": "GenAI, cloud platforms, developer tools"
+      },
+      "sources": [
+        "Gartner Technology Sector Analysis",
+        "Industry reports"
+      ]
+    },
+    "transportation": {
+      "name": "Transportation & Logistics",
+      "total_industry_spending": {
+        "notes": "Growing digital transformation investment"
+      },
+      "digital_transformation_spending_percent": "Increasing for supply chain visibility",
+      "ai_automation_adoption_rate": "Moderate - Focus on optimization",
+      "risk_tolerance": "Moderate - Safety and efficiency balance",
+      "procurement_cycle_months": "6-12 months",
+      "growth_projections": {
+        "focus": "IoT, fleet management, route optimization"
+      },
+      "sources": [
+        "Industry analysis reports"
+      ]
+    },
+    "energy": {
+      "name": "Energy & Utilities",
+      "total_industry_spending": {
+        "notes": "Significant infrastructure modernization"
+      },
+      "digital_transformation_spending_percent": {
+        "AI_investment_increase": "38.3% average spending increase (2025)"
+      },
+      "ai_automation_adoption_rate": {
+        "control_room_AI": "40% will deploy AI in control rooms by 2027",
+        "CIO_AI_plans": "94% plan to increase AI investments"
+      },
+      "risk_tolerance": "Conservative-Moderate - Infrastructure critical",
+      "procurement_cycle_months": "9-18 months",
+      "growth_projections": {
+        "focus": "Grid modernization, predictive maintenance"
+      },
+      "sources": [
+        "Gartner Power & Utilities Survey 2025",
+        "Industry reports"
+      ]
+    },
+    "real_estate": {
+      "name": "Real Estate",
+      "total_industry_spending": {
+        "notes": "Emerging digital transformation sector"
+      },
+      "digital_transformation_spending_percent": "Growing proptech investment",
+      "ai_automation_adoption_rate": "Low-Moderate but accelerating",
+      "risk_tolerance": "Conservative - Traditional industry",
+      "procurement_cycle_months": "6-12 months",
+      "growth_projections": {
+        "focus": "Property management tech, virtual tours"
+      },
+      "sources": [
+        "Industry analysis"
+      ]
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-01-24",
+    "currency": "USD",
+    "geography": "Primarily United States with some global data",
+    "notes": [
+      "Global IT spending expected to reach $5.61 trillion in 2025 (9.8% growth)",
+      "GenAI spending forecast at $644 billion in 2025 (76.4% increase from 2024)",
+      "Enterprise software procurement cycles typically 6-12 months",
+      "30% of GenAI projects expected to be abandoned after POC by end of 2025",
+      "By 2026, 80%+ of enterprises will have deployed GenAI applications"
+    ],
+    "key_trends": {
+      "ai_adoption": "20% annual growth across industries",
+      "cloud_spending": ">$700 billion by end of 2024",
+      "cybersecurity": "15% spending increase for 2025",
+      "it_services": "$1.5 trillion by end of 2024 (8.7% growth)"
+    }
+  }
+}
