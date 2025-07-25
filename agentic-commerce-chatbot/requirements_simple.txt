@@ -1,0 +1,31 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+
+# LangChain and LangGraph
+langchain
+langchain-community
+langgraph
+langchain-core
+
+# Local LLM
+ollama
+
+# Vector store and embeddings
+chromadb
+
+# Data handling
+pydantic
+python-dotenv
+aiofiles
+
+# Utilities
+httpx
+tenacity
+cachetools
+
+# WebSocket client for frontend
+websocket-client
+websockets
