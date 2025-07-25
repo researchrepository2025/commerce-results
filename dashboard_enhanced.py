@@ -27,9 +27,112 @@ except ImportError as e:
     print(f"AI Chat not available - {e}")
     AI_CHAT_AVAILABLE = False
 
-# Initialize the Dash app
-app = dash.Dash(__name__)
+# Initialize the Dash app with better styling
+app = dash.Dash(__name__, suppress_callback_exceptions=True)
 app.title = "Enhanced Agentic Commerce Market Projection Dashboard"
+
+# Add custom CSS for better text contrast
+app.index_string = '''
+<!DOCTYPE html>
+<html>
+    <head>
+        {%metas%}
+        <title>{%title%}</title>
+        {%favicon%}
+        {%css%}
+        <style>
+            /* Fix tab styling for better contrast */
+            .tab {
+                background-color: #f8f9fa !important;
+                color: #212529 !important;
+                border: 1px solid #dee2e6 !important;
+                font-weight: 500;
+                padding: 10px 20px;
+            }
+            
+            .tab--selected {
+                background-color: #007bff !important;
+                color: white !important;
+                border-color: #007bff !important;
+                font-weight: 600;
+            }
+            
+            /* Tab hover effect */
+            .tab:hover:not(.tab--selected) {
+                background-color: #e9ecef !important;
+                color: #212529 !important;
+            }
+            
+            /* Ensure all text has proper contrast */
+            body {
+                color: #212529 !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            }
+            
+            /* Fix header text colors */
+            h1, h2, h3, h4, h5, h6 {
+                color: inherit !important;
+            }
+            
+            /* Input fields should have dark text */
+            input[type="text"], input[type="number"], select, textarea {
+                color: #212529 !important;
+                background-color: white !important;
+                border: 1px solid #ced4da !important;
+            }
+            
+            /* Dropdown menus */
+            .Select-control, .Select-value-label {
+                color: #212529 !important;
+            }
+            
+            /* Tab container background */
+            .dash-tabs {
+                background-color: transparent !important;
+            }
+            
+            /* Tab content area */
+            .tab-content {
+                background-color: #f8f9fa !important;
+                color: #212529 !important;
+            }
+            
+            /* Slider labels */
+            .rc-slider-mark-text {
+                color: #666 !important;
+            }
+            
+            /* Graph backgrounds */
+            .dash-graph {
+                background-color: white !important;
+            }
+            
+            /* Table headers - keep these with good contrast */
+            .dash-table-container .dash-header {
+                color: white !important;
+            }
+            
+            /* Details/Summary elements */
+            details summary {
+                color: #212529 !important;
+            }
+            
+            /* Labels and paragraphs */
+            label, p {
+                color: #212529 !important;
+            }
+        </style>
+    </head>
+    <body>
+        {%app_entry%}
+        <footer>
+            {%config%}
+            {%scripts%}
+            {%renderer%}
+        </footer>
+    </body>
+</html>
+'''
 
 # Define color schemes
 GENERATION_COLORS = {
@@ -1450,10 +1553,10 @@ original_layout = html.Div([
 # Set the layout first
 app.layout = original_layout
 
-# Add AI chat button directly
+# Add AI chat with immediate user feedback and streaming responses
 try:
-    from add_chat_button import add_chat_directly
-    add_chat_directly(app)
+    from add_chat_optimized import add_chat_optimized
+    add_chat_optimized(app)
 except Exception as e:
     print(f"⚠️  Could not add AI chat button: {e}")
 
