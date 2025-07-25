@@ -192,23 +192,25 @@ ollama serve
 ```
 agentic-commerce-chatbot/
 ├── backend/
-│   ├── main.py          # FastAPI + WebSocket server
-│   ├── agent.py         # LangGraph agent logic
+│   ├── main_simple.py   # FastAPI + WebSocket server
 │   └── models.py        # Pydantic models
 ├── frontend/
-│   ├── chat_sidebar.py  # Dash chat component
-│   └── dashboard_integration.py
-├── agent_memory/        # Local storage
+│   └── final_integration.py  # Dashboard integration
+├── agent_memory/        # Local storage (created at runtime)
+├── launch.sh           # Start backend server
+├── setup.sh            # Environment setup
 └── requirements.txt
 ```
 
 ### Testing
 ```bash
-# Run tests
-pytest tests/
+# Test the integration
+curl http://localhost:8000/api/health
 
-# Test WebSocket connection
-python -m websockets ws://localhost:8000/ws/agent
+# Test AI chat
+curl -X POST http://localhost:8000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"message": "Hello AI"}'
 ```
 
 ## Security
