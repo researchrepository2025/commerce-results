@@ -18,6 +18,15 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from agentic_commerce_market_projection_extended import ExtendedAgenticCommerceProjection
 
+# Add AI chatbot integration
+sys.path.append(os.path.join(os.path.dirname(__file__), 'agentic-commerce-chatbot'))
+try:
+    from frontend.final_integration import integrate_ai_with_enhanced_dashboard
+    AI_CHAT_AVAILABLE = True
+except ImportError as e:
+    print(f"AI Chat not available - {e}")
+    AI_CHAT_AVAILABLE = False
+
 # Initialize the Dash app
 app = dash.Dash(__name__)
 app.title = "Enhanced Agentic Commerce Market Projection Dashboard"
@@ -1150,8 +1159,8 @@ def create_fee_structure_controls():
         ])
     ])
 
-# Create the layout
-app.layout = html.Div([
+# Create the original layout
+original_layout = html.Div([
     # Header
     html.Div([
         html.H1("Enhanced Agentic Commerce Market Projection Dashboard", 
@@ -1437,6 +1446,16 @@ app.layout = html.Div([
         'distribution': initial_distribution_df.to_dict()
     })
 ])
+
+# Set the layout first
+app.layout = original_layout
+
+# Add AI chat button directly
+try:
+    from add_chat_button import add_chat_directly
+    add_chat_directly(app)
+except Exception as e:
+    print(f"⚠️  Could not add AI chat button: {e}")
 
 # Callback to update retailer share and total fees display
 @app.callback(
@@ -3292,5 +3311,9 @@ if __name__ == '__main__':
     print("- Unified economy visualizations")
     print("- Comprehensive revenue distribution analysis")
     print("- 30+ interactive visualizations")
+    if AI_CHAT_AVAILABLE:
+        print("- AI Assistant integrated (look for chat button)")
+        print("\n⚠️  Make sure the AI backend is running:")
+        print("   cd agentic-commerce-chatbot && ./launch.sh")
     print("="*60 + "\n")
     app.run(debug=True, port=8050)
