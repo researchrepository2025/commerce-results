@@ -1,0 +1,90 @@
+{
+  "industries": {
+    "manufacturing": {
+      "name": "Manufacturing",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "healthcare": {
+      "name": "Healthcare",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "financial_services": {
+      "name": "Financial Services",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "retail": {
+      "name": "Retail",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "technology": {
+      "name": "Technology",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "transportation": {
+      "name": "Transportation",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "energy": {
+      "name": "Energy",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    },
+    "real_estate": {
+      "name": "Real Estate",
+      "total_industry_spending": null,
+      "digital_transformation_spending_percent": null,
+      "ai_automation_adoption_rate": null,
+      "risk_tolerance": null,
+      "procurement_cycle_months": null,
+      "growth_projections": null,
+      "sources": []
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-01-24",
+    "currency": "USD",
+    "geography": "United States",
+    "notes": []
+  }
+}
