@@ -116,8 +116,9 @@ Based on:
 
 ### Generation Z (Ages 16-28)
 - Lower trust (64%) despite high tech usage
-- Limited purchasing power
+- Average annual online spending: $3,450 (vs $940 subscriptions only)
 - Privacy concerns with data sharing
+- 80% of shopping occurs online (highest of all generations)
 
 ### Millennials (Ages 29-44)
 - Highest trust (72%) but family financial responsibilities

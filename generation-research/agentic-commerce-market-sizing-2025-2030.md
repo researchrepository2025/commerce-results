@@ -43,7 +43,7 @@
 | Baby Boomers | $50,000 | Average annual agentic commerce spend per adopter (assumption) | Baby Boomers research | N/A |
 | Generation X | $47,000 | Average annual online spend | Nielsen IQ | https://nielseniq.com/global/en/news-center/2025/overlooked-and-under-marketed-gen-x-emerges-as-most-influential-global-consumer-cohort/ |
 | Millennials | $31,256 | Average annual retail spending | Capital One Shopping | https://capitaloneshopping.com/research/millennial-shopping-statistics/ |
-| Generation Z | $940 | Annual spending on subscriptions alone | Bango Subscription Study | https://www.thewrap.com/gen-z-most-subscribed-generation-study-bango/ |
+| Generation Z | $3,450 | Average annual online spending (80% of $2,388 teen spend + older cohort) | Piper Sandler/NIQ/DataReportal | https://www.pipersandler.com/teens + https://nielseniq.com/global/en/landing-page/spend-z/ |
 | Generation Alpha | $572 | Annual digital spending ($22 weekly × 26 weeks) | Generation Alpha spending data | https://dealaid.org/data/gen-alpha/ |
 
 ## 5. MARKET SIZE CALCULATION TABLE (in billions)
@@ -55,9 +55,9 @@
 | Baby Boomers | 76.4M | × 11% | × 5% | × $50,000 | = $2.1B |
 | Generation X | 65M | × 19% | × 8% | × $47,000 | = $4.6B |
 | Millennials | 74.2M | × 24% | × 15% | × $31,256 | = $8.4B |
-| Generation Z | 67M | × 21% | × 18% | × $940 | = $2.4B |
+| Generation Z | 67M | × 21% | × 18% | × $3,450 | = $8.7B |
 | Generation Alpha | 12.8M | × 33% | × 12% | × $572 | = $0.3B |
-| **Total 2025** | | | | | **= $17.8B** |
+| **Total 2025** | | | | | **= $24.1B** |
 
 ### 2026
 | Generation | Population | × Daily AI % | × AI Purchase % | × Annual Spend | = Market Size |
@@ -66,9 +66,9 @@
 | Baby Boomers | 76.4M | × 11% | × 9% | × $50,000 | = $3.8B |
 | Generation X | 65M | × 19% | × 14% | × $47,000 | = $8.1B |
 | Millennials | 74.2M | × 24% | × 28% | × $31,256 | = $15.6B |
-| Generation Z | 67M | × 21% | × 35% | × $940 | = $4.6B |
+| Generation Z | 67M | × 21% | × 35% | × $3,450 | = $17.0B |
 | Generation Alpha | 12.8M | × 33% | × 22% | × $572 | = $0.5B |
-| **Total 2026** | | | | | **= $32.6B** |
+| **Total 2026** | | | | | **= $45.0B** |
 
 ### 2027
 | Generation | Population | × Daily AI % | × AI Purchase % | × Annual Spend | = Market Size |
@@ -77,9 +77,9 @@
 | Baby Boomers | 76.4M | × 11% | × 15% | × $50,000 | = $6.3B |
 | Generation X | 65M | × 19% | × 22% | × $47,000 | = $12.8B |
 | Millennials | 74.2M | × 24% | × 45% | × $31,256 | = $25.0B |
-| Generation Z | 67M | × 21% | × 55% | × $940 | = $7.3B |
+| Generation Z | 67M | × 21% | × 55% | × $3,450 | = $26.7B |
 | Generation Alpha | 12.8M | × 33% | × 38% | × $572 | = $0.9B |
-| **Total 2027** | | | | | **= $52.3B** |
+| **Total 2027** | | | | | **= $71.7B** |
 
 ### 2028
 | Generation | Population | × Daily AI % | × AI Purchase % | × Annual Spend | = Market Size |
@@ -88,9 +88,9 @@
 | Baby Boomers | 76.4M | × 11% | × 23% | × $50,000 | = $9.7B |
 | Generation X | 65M | × 19% | × 32% | × $47,000 | = $18.6B |
 | Millennials | 74.2M | × 24% | × 62% | × $31,256 | = $34.5B |
-| Generation Z | 67M | × 21% | × 72% | × $940 | = $9.5B |
+| Generation Z | 67M | × 21% | × 72% | × $3,450 | = $34.9B |
 | Generation Alpha | 12.8M | × 33% | × 55% | × $572 | = $1.3B |
-| **Total 2028** | | | | | **= $73.6B** |
+| **Total 2028** | | | | | **= $99.0B** |
 
 ### 2029
 | Generation | Population | × Daily AI % | × AI Purchase % | × Annual Spend | = Market Size |
@@ -99,9 +99,9 @@
 | Baby Boomers | 76.4M | × 11% | × 32% | × $50,000 | = $13.5B |
 | Generation X | 65M | × 19% | × 42% | × $47,000 | = $24.4B |
 | Millennials | 74.2M | × 24% | × 75% | × $31,256 | = $41.7B |
-| Generation Z | 67M | × 21% | × 82% | × $940 | = $10.9B |
+| Generation Z | 67M | × 21% | × 82% | × $3,450 | = $39.8B |
 | Generation Alpha | 12.8M | × 33% | × 70% | × $572 | = $1.7B |
-| **Total 2029** | | | | | **= $92.2B** |
+| **Total 2029** | | | | | **= $121.1B** |
 
 ### 2030
 | Generation | Population | × Daily AI % | × AI Purchase % | × Annual Spend | = Market Size |
@@ -110,19 +110,19 @@
 | Baby Boomers | 76.4M | × 11% | × 40% | × $50,000 | = $16.8B |
 | Generation X | 65M | × 19% | × 50% | × $47,000 | = $29.0B |
 | Millennials | 74.2M | × 24% | × 83% | × $31,256 | = $46.2B |
-| Generation Z | 67M | × 21% | × 87% | × $940 | = $11.5B |
+| Generation Z | 67M | × 21% | × 87% | × $3,450 | = $42.2B |
 | Generation Alpha | 12.8M | × 33% | × 80% | × $572 | = $1.9B |
-| **Total 2030** | | | | | **= $105.5B** |
+| **Total 2030** | | | | | **= $136.2B** |}
 
 ## 6. SUMMARY TAM TABLE
 
 | Year | Silent Gen | Baby Boomers | Gen X | Millennials | Gen Z | Gen Alpha | **Total TAM** |
 |------|------------|--------------|--------|-------------|--------|-----------|---------------|
-| 2025 | $0.006B | $2.1B | $4.6B | $8.4B | $2.4B | $0.3B | **$17.8B** |
-| 2026 | $0.009B | $3.8B | $8.1B | $15.6B | $4.6B | $0.5B | **$32.6B** |
-| 2027 | $0.016B | $6.3B | $12.8B | $25.0B | $7.3B | $0.9B | **$52.3B** |
-| 2028 | $0.025B | $9.7B | $18.6B | $34.5B | $9.5B | $1.3B | **$73.6B** |
-| 2029 | $0.038B | $13.5B | $24.4B | $41.7B | $10.9B | $1.7B | **$92.2B** |
-| 2030 | $0.051B | $16.8B | $29.0B | $46.2B | $11.5B | $1.9B | **$105.5B** |
+| 2025 | $0.006B | $2.1B | $4.6B | $8.4B | $8.7B | $0.3B | **$24.1B** |
+| 2026 | $0.009B | $3.8B | $8.1B | $15.6B | $17.0B | $0.5B | **$45.0B** |
+| 2027 | $0.016B | $6.3B | $12.8B | $25.0B | $26.7B | $0.9B | **$71.7B** |
+| 2028 | $0.025B | $9.7B | $18.6B | $34.5B | $34.9B | $1.3B | **$99.0B** |
+| 2029 | $0.038B | $13.5B | $24.4B | $41.7B | $39.8B | $1.7B | **$121.1B** |
+| 2030 | $0.051B | $16.8B | $29.0B | $46.2B | $42.2B | $1.9B | **$136.2B** |
 
 These are the facts found regarding US Consumer Agentic Commerce market sizing using only data from the specified files.

@@ -100,9 +100,10 @@ Fill in exact percentages with sources:
 
 Fill in exact values with sources:
 
-- **Average annual online spend**: $_____
-  - Source: _____________ (Year: _____)
-  - Confidence: High/Medium/Low
+- **Average annual online spend**: $3,450
+  - Source: Calculated from Piper Sandler ($2,388 teen spend), NIQ (80% online), DataReportal ($4,470 US avg) (Year: 2024-2025)
+  - URL: https://www.pipersandler.com/teens + https://nielseniq.com/global/en/landing-page/spend-z/
+  - Confidence: Medium (calculated from multiple sources)
 
 - **BNPL (Buy Now Pay Later) service usage**: _____%
   - Source: _____________ (Year: _____)

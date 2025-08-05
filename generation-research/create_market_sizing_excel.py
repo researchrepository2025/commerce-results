@@ -47,7 +47,7 @@ annual_spend = {
     'Baby Boomers': 50000,
     'Generation X': 47000,
     'Millennials': 31256,
-    'Generation Z': 940,
+    'Generation Z': 3450,  # Updated from $940 subscriptions to $3,450 total online spending
     'Generation Alpha': 572
 }
 
@@ -157,7 +157,7 @@ spend_sources = {
     'Baby Boomers': ('Assumption based on high-income segments', 'N/A'),
     'Generation X': ('Nielsen IQ', 'https://nielseniq.com/global/en/news-center/2025/overlooked-and-under-marketed-gen-x-emerges-as-most-influential-global-consumer-cohort/'),
     'Millennials': ('Capital One Shopping', 'https://capitaloneshopping.com/research/millennial-shopping-statistics/'),
-    'Generation Z': ('Bango Subscription Study', 'https://www.thewrap.com/gen-z-most-subscribed-generation-study-bango/'),
+    'Generation Z': ('Piper Sandler/NIQ/DataReportal', 'https://www.pipersandler.com/teens'),
     'Generation Alpha': ('Generation Alpha spending data', 'https://dealaid.org/data/gen-alpha/')
 }
 
@@ -213,8 +213,8 @@ assumptions = [
     },
     {
         'Category': 'Generation Z Spend',
-        'Assumption': '$940 based on subscription spending only',
-        'Rationale': 'Conservative estimate; actual spending likely higher when including all categories'
+        'Assumption': '$3,450 based on total online spending (80% of shopping)',
+        'Rationale': 'Calculated from Piper Sandler teen data, NIQ online shopping patterns, and DataReportal averages'
     },
     {
         'Category': 'Trust-to-Purchase Conversion',
@@ -286,10 +286,10 @@ sources_data = [
         'Date': '2024'
     },
     {
-        'Data Type': 'Gen Z Subscriptions',
-        'Source': 'Bango Study',
-        'URL': 'https://www.thewrap.com/gen-z-most-subscribed-generation-study-bango/',
-        'Date': '2024'
+        'Data Type': 'Gen Z Total Online Spending',
+        'Source': 'Piper Sandler/NIQ/DataReportal',
+        'URL': 'https://www.pipersandler.com/teens',
+        'Date': '2024-2025'
     },
     {
         'Data Type': 'Gen Alpha Spending',
