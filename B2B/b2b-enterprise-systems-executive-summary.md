@@ -21,6 +21,7 @@ Both ERP and Procurement segments demonstrate remarkable strategic convergence, 
 ### Technology Adoption Convergence
 - **Agent-to-Agent Architecture**: Universal adoption of A2A communication systems enabling autonomous business process orchestration
 - **Centralized Management Platforms**: All vendors developing specialized agent creation and management tools (Oracle AI Agent Studio, SAP Joule Agents, Workday Illuminate)
+- **Three-Pathway Model**: Enterprise adoption has consolidated around three primary approaches: External AI-Assisted Procurement, Integrated AI Within ERP/Procurement, and Direct Marketplace Purchasing, simplifying strategic decision-making to external versus integrated AI deployment
 - **Hybrid Integration Models**: Convergence on combining proprietary agent platforms with third-party AI model integration (OpenAI GPT-4o, Google Gemini 2.5)
 
 ### Partnership Ecosystem Evolution
@@ -97,7 +98,7 @@ All major platforms project full autonomous workflow capability by 2026, with Or
 ### For Enterprise Buyers
 **Technology Transformation Requirements**: Enterprise buyers must prepare for fundamental changes in software interaction models. Traditional point-and-click interfaces will be supplemented or replaced by conversational agent interfaces capable of autonomous task execution. IT departments need to develop new skills in agent management, workflow orchestration, and cross-platform integration.
 
-**Vendor Selection Criteria**: Evaluation criteria must evolve beyond traditional functionality assessments to include agent development platforms, integration architecture capabilities, and ecosystem partnership strength. Buyers should prioritize vendors demonstrating proven autonomous workflow capabilities and robust agent-to-agent communication systems.
+**Vendor Selection Criteria**: Evaluation criteria must evolve beyond traditional functionality assessments to include agent development platforms, integration architecture capabilities, and ecosystem partnership strength. Enterprise buyers face three primary pathways for agentic procurement adoption: External AI-Assisted Procurement (73% adoption), Integrated AI Within ERP/Procurement (70% adoption), and Direct Marketplace Purchasing (88% adoption). The key strategic decision centers on external versus integrated AI based on security and integration requirements, rather than specific AI tool selection. Buyers should prioritize vendors demonstrating proven autonomous workflow capabilities and robust agent-to-agent communication systems.
 
 **Implementation Timeline Pressure**: The 24-month industry transformation timeline creates urgency for enterprise buyers to evaluate and adopt agentic capabilities. Delaying adoption beyond 2026 may result in competitive disadvantage as autonomous workflows become standard business practice.
 

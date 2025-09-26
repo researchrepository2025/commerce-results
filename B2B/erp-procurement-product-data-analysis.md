@@ -297,19 +297,19 @@ Three-phase evolution roadmap:
 - Automatic alternative suggestions with explanations
 - Integration with external market intelligence
 
-### Critical Gap: Research vs Purchase Integration
+### Critical Gap: External AI vs Integrated AI
 
 **Current Reality**
 - ERP/Procurement systems limited to internal catalogs
-- Cannot search open web like ChatGPT
-- No direct integration between ChatGPT and procurement systems
-- Security barriers prevent confidential data in AI platforms
+- External AI platforms (ChatGPT, Perplexity, Claude) can search open web but cannot integrate with procurement systems
+- No direct integration between external AI tools and procurement workflows
+- Security barriers prevent confidential data sharing with external AI platforms
 
 **Future Integration Challenges**
 - "60% of AI leaders report legacy system integration as primary challenge"
 [(Deloitte AI Trends, 2025)](https://www.deloitte.com/us/en/services/consulting/blogs/ai-adoption-challenges-ai-trends.html)
-- Neither ChatGPT nor Perplexity have announced B2B purchase integration
-- Enterprises prefer purpose-built procurement AI over general AI tools
+- External AI platforms have not announced B2B purchase integration capabilities
+- Enterprises prefer purpose-built procurement AI over general external AI tools
 
 ---
 

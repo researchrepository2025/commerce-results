@@ -8,7 +8,7 @@ The B2B customer journey for IT and AI hardware/software purchasing is undergoin
 - 94% of procurement executives now use generative AI weekly, with 80% planning AI deployment in procurement within three years
 - B2B buyers complete 67% of their journey independently before vendor contact, with 85% establishing requirements before engaging sellers
 - Average buying committees involve 8.2 stakeholders (up 21% since 2015), with 79% requiring CFO final approval
-- Multiple pathway adoption varies significantly, with traditional ERP-integrated workflows still dominating enterprise purchases
+- Three distinct purchasing pathways emerge: external AI-assisted procurement (73% adoption), integrated ERP systems (70% of enterprises), and direct marketplace platforms (88% make purchases)
 
 ---
 
@@ -241,57 +241,76 @@ Rather than general-purpose AI tools, enterprises are increasingly adopting spec
 - **Traditional In-Person Sales**: Revenue dropped from 22% two years ago to just 17% in 2024 [(McKinsey, 2025)](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/five-fundamental-truths-how-b2b-winners-keep-growing)
 - **Sales Representative-Led**: Sales reps now have only 5% of customer's time during B2B buying journey; 44% of millennials prefer no sales rep interaction [(TechnologyAdvice, 2025)](https://solutions.technologyadvice.com/blog/b2b-tech-buyer-stats-marketers-need-to-know/)
 
-### Pathway 1: AI Platform Research → Procurement System Purchase
+### Pathway 1: External AI-Assisted Procurement
 **Adoption Rate**: 73% of procurement professionals report using AI for procurement use cases [(Ironclad, 2025)](https://artofprocurement.com/blog/state-of-ai-in-procurement)
 **Trend**: RAPID GROWTH - 90% of procurement leaders plan to adopt AI agents in 2025 [(Icertis, 2025)](https://www.thescxchange.com/finance-strategy/procure/survey-90-of-procurement-leaders-to-adopt-ai-agents-in-2025)
 
 **Process Flow**:
-1. Initial research using ChatGPT/Perplexity for market intelligence
+1. Initial research using external AI tools (ChatGPT, Perplexity, Copilot) for market intelligence
 2. Requirements gathering and vendor identification via AI platforms
-3. Transfer to formal procurement systems (SAP Ariba, Oracle Procurement)
+3. Manual or automated transfer to formal procurement systems (SAP Ariba, Oracle Procurement)
 4. Traditional approval workflows within ERP systems
 5. Final purchase through established procurement channels
 
-**Evidence**: 94% of procurement executives use generative AI weekly [(Art of Procurement, 2025)](https://artofprocurement.com/blog/state-of-ai-in-procurement)
+**Evidence**:
+- 94% of procurement executives use generative AI weekly [(Art of Procurement, 2025)](https://artofprocurement.com/blog/state-of-ai-in-procurement)
+- Many buyers are "outsourcing the vendor bake-off to ChatGPT" with prompts like "Compare Brex to Mercury for a small startup" [(KVIA, 2025)](https://kvia.com/news/2025/09/17/why-people-are-turning-to-chatgpt-for-vendor-bake-offs/)
+- Enterprises use Microsoft Copilot, ChatGPT, and Perplexity interchangeably for research depending on security policies and specific use cases
 
-### Pathway 2: End-to-End Within ERP/Procurement Systems
+**Key Characteristic**: The defining feature of this pathway is that users start with external AI tools (outside the enterprise procurement system) for research and discovery, then transition to internal systems for execution.
+
+### Pathway 2: Integrated AI Within ERP/Procurement Systems
 **Adoption Rate**: 70% of large enterprises utilize ERP systems [(DocuClipper, 2025)](https://www.docuclipper.com/blog/erp-statistics/)
-**Trend**: STABLE WITH CLOUD MIGRATION - 60% of ERP deployments expected to be cloud-based by 2025, up from 40% in 2020 [(DocuClipper, 2025)](https://www.docuclipper.com/blog/erp-statistics/)
+**Trend**: STABLE WITH AI INTEGRATION - 60% of ERP deployments expected to be cloud-based by 2025, with major AI integrations from Oracle-OpenAI and Microsoft-SAP partnerships
 
 **Process Flow**:
-1. Requirements definition within ERP system
-2. Vendor research using integrated procurement platform tools
-3. RFP generation and distribution through procurement system
-4. Vendor evaluation and comparison within platform
+1. Requirements definition within ERP system with AI assistance
+2. Vendor research using integrated procurement platform AI tools (SAP Joule, Oracle AI)
+3. AI-powered RFP generation and distribution through procurement system
+4. Vendor evaluation and comparison within platform using embedded AI
 5. Purchase execution with full audit trail and compliance
 
-**Evidence**: 53% of businesses consider ERP a priority investment; 62% report reduced costs through ERP purchasing and inventory control [(DocuClipper, 2025)](https://www.docuclipper.com/blog/erp-statistics/)
+**Evidence**:
+- 53% of businesses consider ERP a priority investment; 62% report reduced costs through ERP purchasing and inventory control [(DocuClipper, 2025)](https://www.docuclipper.com/blog/erp-statistics/)
+- Oracle deployed OpenAI GPT-5 across its database portfolio and SaaS applications [(Oracle, 2025)](https://www.oracle.com/news/announcement/oracle-deploys-openai-gpt5-across-oracle-database-and-cloud-applications-portfolio-2025-08-18/)
+- SAP announced partnership with Perplexity AI for business search integration [(SAP-Perplexity Partnership, 2025)](https://diginomica.com/spring-event-highlight-sap-reveals-details-about-its-ai-foundation-model-and-fields-questions)
 
-### Pathway 3: Hybrid Approaches
-**Adoption Rate**: Only 36% of procurement organizations have meaningful generative AI implementations, indicating most use hybrid approaches [(Art of Procurement, 2025)](https://artofprocurement.com/blog/state-of-ai-in-procurement)
-**Trend**: GROWING - 56% of businesses have automated previously manual tasks [(BigCommerce, 2025)](https://www.bigcommerce.com/articles/b2b-ecommerce/b2b-ecommerce-trends/)
+**Key Characteristic**: All research, evaluation, and purchasing activities occur within the enterprise procurement ecosystem with embedded AI capabilities.
 
-**Process Flow**:
-1. AI-assisted initial research and market intelligence
-2. Requirements refinement using enterprise-grade AI tools (Microsoft Copilot)
-3. Vendor shortlisting through combination of AI insights and procurement platform data
-4. Formal evaluation process within procurement systems
-5. Purchase execution through traditional channels
-
-**Evidence**: 71% report at least 50% of suppliers use B2B eCommerce solutions [(Capital One Shopping, 2025)](https://capitaloneshopping.com/research/b2b-ecommerce-statistics/)
-
-### Pathway 4: Direct Vendor Platforms with AI Assistance
+### Pathway 3: Direct Marketplace Purchasing
 **Adoption Rate**: 88% of global B2B buyers make at least one B2B marketplace purchase annually; 35% make at least half their purchases on marketplaces [(Capital One Shopping, 2025)](https://capitaloneshopping.com/research/b2b-ecommerce-statistics/)
 **Trend**: STRONG GROWTH - 73% of B2B buyers prefer buying online over traditional methods [(BigCommerce, 2025)](https://www.bigcommerce.com/articles/b2b-ecommerce/b2b-ecommerce-trends/)
 
 **Process Flow**:
-1. Direct engagement with vendor AI-powered platforms
+1. Direct engagement with vendor AI-powered platforms (Amazon Business, supplier sites)
 2. AI-assisted product configuration and pricing
 3. Integration with buyer's procurement systems via APIs
 4. Automated approval workflows for pre-approved purchases
 5. Direct fulfillment with procurement system reporting
 
-**Evidence**: 51% of B2B companies purchase through Amazon Business; marketplace adoption growing rapidly [(Capital One Shopping, 2025)](https://capitaloneshopping.com/research/b2b-ecommerce-statistics/)
+**Evidence**:
+- 51% of B2B companies purchase through Amazon Business; marketplace adoption growing rapidly [(Capital One Shopping, 2025)](https://capitaloneshopping.com/research/b2b-ecommerce-statistics/)
+- 71% report at least 50% of suppliers use B2B eCommerce solutions [(Capital One Shopping, 2025)](https://capitaloneshopping.com/research/b2b-ecommerce-statistics/)
+
+**Key Characteristic**: Buyers research and purchase directly on vendor platforms, often with integration back to procurement systems for reporting and compliance.
+
+### Pathway Clarification: Why External AI Tools Are Grouped Together
+
+The consolidation of external AI research tools (ChatGPT, Perplexity, Microsoft Copilot) into Pathway 1 reflects three key differentiating questions:
+
+**"Where does the AI live?"**
+- **Pathway 1**: AI lives outside the enterprise procurement system (ChatGPT, Perplexity, external Copilot)
+- **Pathway 2**: AI is embedded within the enterprise procurement system (SAP Joule, Oracle AI, integrated Copilot)
+
+**"How many systems do users touch?"**
+- **Pathway 1**: Multiple systems - external AI tool for research, then procurement system for execution
+- **Pathway 2**: Single system - all activities within the integrated ERP/procurement platform
+
+**"Where is the purchase executed?"**
+- **Pathway 1 & 2**: Within enterprise procurement systems with formal approval workflows
+- **Pathway 3**: Directly on vendor platforms with optional procurement system integration
+
+Enterprises commonly use multiple external AI tools interchangeably (ChatGPT for quick comparisons, Perplexity for research, Copilot for enterprise integration) but the fundamental workflow pattern remains consistent: external research → internal execution.
 
 ---
 
@@ -420,7 +439,7 @@ Rather than general-purpose AI tools, enterprises are increasingly adopting spec
 
 The B2B customer journey for IT and AI hardware/software purchasing in 2025 represents a complex hybrid of traditional procurement processes and emerging AI-powered capabilities. While 94% of procurement executives use generative AI weekly, enterprise adoption remains constrained by security, compliance, and integration requirements.
 
-The evidence indicates four primary pathway patterns, with traditional ERP-integrated workflows still dominating (50-60%) but hybrid AI-assisted approaches gaining momentum (15-20%). The future evolution toward AI-first procurement models by 2027 will require significant investment in enterprise-grade integration, security frameworks, and regulatory compliance.
+The evidence indicates three primary pathway patterns, with external AI-assisted procurement showing rapid growth (73% adoption), traditional ERP-integrated systems maintaining enterprise dominance (70% of large enterprises), and direct marketplace purchasing expanding significantly (88% make purchases). The future evolution toward AI-first procurement models by 2027 will require significant investment in enterprise-grade integration, security frameworks, and regulatory compliance.
 
 Success in this evolving landscape requires balancing AI innovation with enterprise governance requirements, maintaining the human elements that B2B buyers prefer, while building the technological capabilities to support autonomous procurement workflows in the medium term.
 
